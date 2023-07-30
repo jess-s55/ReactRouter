@@ -1,8 +1,8 @@
 import './App.css'
 import { Routes, Route, Link } from "react-router-dom";
-import { Blue } from './components/blue.jsx';
-import { Red } from './components/red.jsx';
-import { Home } from './components/home.jsx'
+import  Blue from './components/blue.jsx';
+import  Red from './components/red.jsx';
+import  Home from './components/home.jsx'
 
 function App() {
   
