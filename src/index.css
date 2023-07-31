@@ -22,6 +22,7 @@ body > div {
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
+  background-color: aqua;
 }
 
 #main-section {
@@ -35,17 +36,42 @@ body > div {
   justify-content: center;
 }
 
+#root {
+  padding: 0px;
+}
+
 .red {
-  background-color: #b05f6d;
+  background-color: red;
   color: white;
 }
 
 .blue {
-  background-color: #275db3;
+  background-color: blue;
   color: white;
 }
 
 .home {
   background-color: black;
   color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+.homeLink {
+  color: black;
+}
+.blueLink {
+  color: blue;
+}
+.redLink {
+  color: red;
+}
+.greenLink {
+  color: green;
 }
